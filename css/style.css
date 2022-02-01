@@ -1,0 +1,21 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background-color:black;
+  margin: 15px;
+  max-width: 320px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-image: url(file:///Users/TomalaAlyssa/Sites/14-Techmag/14-techmag-ressources/code.jpg);
+  border-width: 1,5cm;
+  border-color: white;
+  border-style: solid;
+}
