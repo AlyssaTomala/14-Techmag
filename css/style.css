@@ -1,19 +1,24 @@
-html{
+/*
+  font-family: 'Montserrat', sans-serif; 100it/800
+  font-family: 'Open Sans', sans-serif; 400/400it/700/700it
+*/
+
+html {
   scroll-behavior: smooth;
 }
 
 body {
   width: 100%;
   background-color:black;
-  margin: 15px auto;
   max-width: 320px;
-  font-family: sans-serif; 
+  font-family: 'Open', sans-serif; 
+  font-weight: 400;
+  margin: auto;
 }
 
 img {
   max-width: 100%;
-  margin: auto;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
@@ -24,31 +29,39 @@ header {
   border-style: solid;
   color: white;
   padding: 25px 80px 25px 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 header h1 {
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 800;
+}
+
+header p {
+  margin-bottom: 5px;
 }
 
 header em {
   color: #2afca6;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 div {
   background-color: #2afca6;
-  color: #0e6a49;
+  color: #0e6949;
   padding: 32px 35px 50px 30px;
 }
 
 div h2 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 
 article {
   background-color: #ffffff;
+  color: #171717;
   margin: 20px 0;
   padding: 35px 30px 30px 30px;
 }
@@ -56,7 +69,8 @@ article {
 article h1{
   color: black;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .publication {
@@ -74,14 +88,30 @@ article h1{
 
 article figure {
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
 }
-
+figure image {
+  margin-bottom: 15px;
+}
+figcaption {
+  font-size: 8px;
+  padding: 10px 15px 10px 15px;
+}
 article a {
   background-color: #444444;
   border: 1px solid #4d4d4d;
   color: white;
-  font-weight: bold;
-  font-size: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
   padding: 5px 15px;
   text-decoration: none;
+}
+
+footer {
+  color: white;
+  border: 2px solid #2afca6;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 15px;
 }
