@@ -17,9 +17,9 @@ body {
 }
 
 img {
-  max-width: 100%;
   height: 100%;
   display: block;
+  width: 100%;
 }
 
 header {
@@ -37,10 +37,6 @@ header {
 header h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 800;
-}
-
-header p {
-  margin-bottom: 5px;
 }
 
 header em {
