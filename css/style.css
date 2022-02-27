@@ -12,7 +12,7 @@ body {
   width: 100%;
   background-color:black;
   max-width: 320px;
-  font-family: 'Open', sans-serif; 
+  font-family: 'Open sans', serif; 
   font-weight: 400;
   margin: auto;
   display: block;
@@ -28,14 +28,20 @@ header {
   background-image: url(file:///Users/TomalaAlyssa/Sites/14-Techmag/14-techmag-ressources/code.jpg);
   border: 2px solid #fff;
   color: white;
-  padding: 50px 30px;
+  padding: 32px 30px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 header .tagline {
   font-size: 16px;
   font-weight: 400;
   color: #aaa;
+}
+
+header h1 {
+  font-size: 26px;
+
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -56,13 +62,14 @@ div {
 div h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 article {
   background-color: #ffffff;
   color: #171717;
   margin: 20px 0;
-  padding: 35px 30px 30px 30px;
+  padding: 30px;
 }
 
 article h1{
@@ -87,23 +94,18 @@ article h1{
 
 article figure {
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
 }
-figure image {
-  margin-bottom: 15px;
-}
+
 figcaption {
   font-size: 8px;
-  padding: 10px 15px 10px 15px;
 }
 article a {
   background-color: #444444;
   border: 1px solid #4d4d4d;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', serif;
   font-weight: 700;
   font-size: 12px;
-  padding: 5px 15px;
   text-decoration: none;
 }
 
